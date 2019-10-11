@@ -16,12 +16,12 @@ The Minimum Viable Product must be completed in three hours.
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your _Team Lead_ as collaborator on Github.
-- [ ] Clone your forked version of the Repository.
-- [ ] Create a new Branch on the clone: git checkout -b `firstName-lastName`.
-- [ ] Implement the project on this Branch, committing changes regularly.
-- [ ] Push commits: git push origin `firstName-lastName`.
+- [X] Create a forked copy of this project.
+- [X] Add your _Team Lead_ as collaborator on Github.
+- [X] Clone your forked version of the Repository.
+- [X] Create a new Branch on the clone: git checkout -b `firstName-lastName`.
+- [X] Implement the project on this Branch, committing changes regularly.
+- [X] Push commits: git push origin `firstName-lastName`.
 
 Follow these steps for completing your project.
 
@@ -38,13 +38,18 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] Explain the difference between `Relational Databases` and `SQL`.
+- [X] Explain the difference between `Relational Databases` and `SQL`.
+A:`SQL is the language used to interact with the RDBMS system. A RDMBS is the software that stores and manages different states of the resources`
 
-- [ ] Why do tables need a `primary key`?
+- [X] Why do tables need a `primary key`?
+A:`Primary keys are what is used to identify specifiy resources on the table(kinda like a fingerprint) and help tie information from one table to the other through being referenced by foreign key`
 
-- [ ] What is the name given to a table column that references the primary key on another table.
+- [X] What is the name given to a table column that references the primary key on another table.
+A: `Foreign Key`
 
-- [ ] What do we need in order to have a _many to many_ relationship between two tables.
+- [X] What do we need in order to have a _many to many_ relationship between two tables.
+
+`The ability to have on entity connect to many of another entity. EX. one teacher to many students.`
 
 ## Minimum Viable Product
 
