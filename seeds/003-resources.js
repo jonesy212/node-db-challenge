@@ -1,13 +1,13 @@
 
 exports.seed = function(knex) {
   // Deletes ALL existing entries
-  return knex('table_name').del()
+  return knex('resources').del()
     .then(function () {
       // Inserts seed entries
-      return knex('table_name').insert([
-        {resource_name: 'Johnny', description: 'resource descript 1', project_id:'', task_id},
-        {resource_name: 'Michael', description: 'resource descript 2', project_id:'', task_id},
-        {resource_name: 'Timmy', description: 'resource descript 3', project_id:'', task_id}
+      return knex('resources').insert([
+        {resource_name: 'PT', description: 'Choosing our personal trainer will guide you until your ready'},
+        {resource_name: 'Internet', description: 'Easy access to what you need'},
+        {resource_name: 'Book', description: 'I\'m a reader myself'}
       ]);
     });
 };
